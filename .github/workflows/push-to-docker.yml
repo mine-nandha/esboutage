@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-java@v3.14.1
       with:
         distribution: 'temurin'
-        java-versoin: '17'
+        java-version: '17'
     - name: Build Jar
       run: ./mvnw clean package -DskipTests
     - name: Docker Login
